@@ -42,6 +42,7 @@ def play(board)
     counter += 1
     turn(board)
     if counter == 9
+      puts "Game over!"
       break
     end
   end
