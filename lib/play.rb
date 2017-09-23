@@ -42,7 +42,7 @@ def play(board)
     counter += 1
     turn(board)
     if counter == 9
-      puts "Game over!"
+      puts "Perhaps your secret talent is losing Tic Tac Toe games against yourself."
       break
     end
   end
